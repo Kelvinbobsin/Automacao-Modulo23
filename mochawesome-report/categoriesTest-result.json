@@ -1,0 +1,122 @@
+{
+  "stats": {
+    "suites": 1,
+    "tests": 2,
+    "passes": 2,
+    "pending": 0,
+    "failures": 0,
+    "start": "2024-04-05T00:21:15.179Z",
+    "end": "2024-04-05T00:21:19.666Z",
+    "duration": 4487,
+    "testsRegistered": 2,
+    "passPercent": 100,
+    "pendingPercent": 0,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 0,
+    "hasSkipped": false
+  },
+  "results": [
+    {
+      "uuid": "fd0f5346-e529-42eb-ad63-f6479870c8e5",
+      "title": "",
+      "fullFile": "cypress\\e2e\\categoriesTest.cy.js",
+      "file": "cypress\\e2e\\categoriesTest.cy.js",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "772117ce-a20d-49bc-9b2b-17b255f1a06a",
+          "title": "Categories",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "Validação categoria Shoes",
+              "fullTitle": "Categories Validação categoria Shoes",
+              "timedOut": null,
+              "duration": 2741,
+              "state": "passed",
+              "speed": "fast",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "homePage.openSearchProduct();\nhomePage.openCategoriesFilter();\nhomePage.categories().should('contain.text', category.name);",
+              "err": {},
+              "uuid": "ae981a35-78aa-4136-8fea-e9348786c488",
+              "parentUUID": "772117ce-a20d-49bc-9b2b-17b255f1a06a",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "Validação categoria Clothes",
+              "fullTitle": "Categories Validação categoria Clothes",
+              "timedOut": null,
+              "duration": 1672,
+              "state": "passed",
+              "speed": "fast",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "homePage.openSearchProduct();\nhomePage.openCategoriesFilter();\nhomePage.categories().should('contain.text', category.name);",
+              "err": {},
+              "uuid": "1d26ccf4-b8c3-4df0-84be-e49db820411e",
+              "parentUUID": "772117ce-a20d-49bc-9b2b-17b255f1a06a",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "ae981a35-78aa-4136-8fea-e9348786c488",
+            "1d26ccf4-b8c3-4df0-84be-e49db820411e"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 4413,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    }
+  ],
+  "meta": {
+    "mocha": {
+      "version": "7.0.1"
+    },
+    "mochawesome": {
+      "options": {
+        "quiet": false,
+        "reportFilename": "[name]-result",
+        "saveHtml": true,
+        "saveJson": true,
+        "consoleReporter": "spec",
+        "useInlineDiffs": false,
+        "code": true
+      },
+      "version": "7.1.3"
+    },
+    "marge": {
+      "options": {
+        "reportFilename": "[name]-result",
+        "html": true
+      },
+      "version": "6.2.0"
+    }
+  }
+}
